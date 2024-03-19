@@ -55,6 +55,10 @@ background-color: beige;
 
 }
 
+h1 {
+  text-align: center;
+}
+
   .h21{
     float: right;
     background-color: blue;
