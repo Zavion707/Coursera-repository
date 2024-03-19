@@ -1,1 +1,77 @@
 
+
+/* small devices */
+@media (max-width: 767px) {
+  .box1, .box2, .box3 {
+width: 100%; 
+border-style: solid;
+height: 40%;
+margin-bottom: 10px;
+background-color: beige;
+padding: 20px;
+
+}
+}
+
+/* medium devices */
+@media (min-width: 768px) and (max-width: 991px) {
+  .box1, .box2 {
+width: 40%; 
+border-style: solid;
+float: left;
+height: 40%;
+padding: 20px;
+margin: 10px;
+background-color: beige;
+
+}
+
+  .box3 {
+width: 100%; 
+border-style: solid;
+float: left;
+height: 40%;
+padding: 20px;
+margin: 10px;
+background-color: beige;
+
+  }
+
+
+}
+
+/* large devices */
+@media (min-width: 992px) {
+  .box1, .box2, .box3 {
+width: 20%;
+border-style: solid;
+float: left;
+height: 40%;
+padding: 20px;
+margin: 10px;
+background-color: beige;
+
+}
+
+}
+
+  .h21{
+    float: right;
+    background-color: blue;
+    color: white;
+    
+  }
+
+  .h22{
+    float: right;
+    background-color: purple;
+    color: white;
+    
+  }
+
+  .h23{
+    float: right;
+    background-color: red;
+    color: white;
+    
+  }
