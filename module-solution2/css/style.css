@@ -43,7 +43,7 @@ background-color: beige;
 /* large devices */
 @media (min-width: 992px) {
   .box1, .box2, .box3 {
-width: 20%;
+width: 27%;
 border-style: solid;
 float: left;
 height: 40%;
